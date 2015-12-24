@@ -57,6 +57,19 @@
           "composer/installers": "~1.0"
         }
       }
+    },
+    "extra": {
+      "installer-paths": {
+        "web/": ["type:drupal-core"],
+        "web/profiles/{$name}/": ["type:drupal-profile"],
+        "web/profiles/simple/modules/contrib/{$name}/": ["type:drupal-module"],
+        "web/profiles/simple/themes/contrib/{$name}/": ["type:drupal-theme"],
+        "web/profiles/simple/libraries/{$name}/": ["type:drupal-library"],
+        "web/profiles/simple/drush/{$name}/": ["type:drupal-drush"]
+      },
+      "preserve-paths": [
+        "web/profiles/simple"
+      ]
     }
   }
 }
