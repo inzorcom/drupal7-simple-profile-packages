@@ -2,6 +2,7 @@
   "packages": {
     "profile/simple" : {
       "1.0.1" : {
+        "name": "profile/simple",
         "version": "1.0.1",
         "type": "drupal-profile",
         "source": {
