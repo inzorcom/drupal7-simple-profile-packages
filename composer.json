@@ -1,0 +1,61 @@
+{
+  "packages": {
+    "profile/simple" : {
+      "1.0.1" : {
+        "version": "1.0.1",
+        "type": "drupal-profile",
+        "source": {
+          "url": "https://babko@bitbucket.org/babko/drupal7-simple-profile.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    "library/backbone" : {
+      "1.2.3" : {
+        "name": "library/backbone",
+        "version": "1.2.3",
+        "type": "drupal-library",
+        "dist": {
+          "url": "http://backbonejs.org/backbone-min.js",
+          "type": "file"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    "library/underscore" : {
+      "1.8.3" : {
+        "name": "library/underscore",
+        "version": "1.8.3",
+        "type": "drupal-library",
+        "dist": {
+          "url": "http://underscorejs.org/underscore-min.js",
+          "type": "file"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    "library/modernizr" : {
+      "3.2.0" : {
+        "name": "library/modernizr",
+        "version": "3.2.0",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/inzorcom/drupal7_navbar_modernizr.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    }
+  }
+}
